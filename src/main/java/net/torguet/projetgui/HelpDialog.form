@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="closeDialog"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="605" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="okButton" min="-2" pref="67" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="436" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="okButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="okButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="okButtonActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="getRootPane().setDefaultButton(okButton);"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Aide du logiciel&#xa;&#xa;Ici nous pourrons &#xe9;crire les informations sur l&apos;aide.&#xa;&#xa;La zone de texte pouvant contenir un texte tr&#xe8;s long.&#xa;&#xa;Ins&#xe9;rons un texte quelconque gr&#xe2;ce &#xe0; https://www.lipsum.com/&#xa;&#xa;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae dolor in ante vulputate laoreet. Etiam sit amet massa rhoncus, facilisis purus ac, facilisis enim. Nulla nec sapien porttitor, maximus mauris ac, interdum nisi. Integer nec leo a ligula sodales mattis. Donec imperdiet quam fermentum ligula molestie sagittis. Integer vestibulum odio et faucibus interdum. Sed est nibh, maximus ac hendrerit ac, finibus vitae mauris. Nunc interdum id tortor nec commodo. Fusce at sagittis augue, et auctor est. Etiam tellus velit, interdum vel interdum a, gravida in tortor. Proin malesuada, velit nec molestie pulvinar, dolor elit tincidunt enim, vel rutrum nisi nulla at elit. Donec porttitor eu tortor nec efficitur. Cras finibus sagittis neque, nec luctus lorem volutpat et. Phasellus volutpat at nisl quis fermentum. Nulla vulputate tincidunt risus. Nam porta, nisl in ullamcorper feugiat, turpis erat efficitur lectus, quis efficitur ex arcu vestibulum est.&#xa;&#xa;Vivamus commodo sagittis congue. Vestibulum at nulla pretium, tincidunt urna quis, blandit augue. Suspendisse tristique elementum turpis vel mattis. Sed a placerat elit. Vestibulum porta sit amet ipsum sit amet lacinia. Donec nisl massa, sagittis id laoreet sit amet, tempus id nisi. Nunc nec condimentum orci. Etiam iaculis risus sed justo dapibus pulvinar in eget purus. In ullamcorper vitae neque vitae varius. Pellentesque consequat suscipit risus, elementum vulputate erat posuere nec. Ut accumsan bibendum mi, efficitur rhoncus ante posuere eu.&#xa;&#xa;In sagittis vehicula felis nec suscipit. Fusce in volutpat augue. Quisque maximus quam non purus pretium, vel lacinia lorem vestibulum. Etiam aliquet non nisi molestie porttitor. Donec tempus, nunc at interdum commodo, urna lectus sodales diam, nec consequat purus metus id augue. Nam condimentum, erat cursus convallis iaculis, magna purus lacinia nisl, aliquet feugiat leo nunc nec massa. Mauris sed facilisis nulla.&#xa;&#xa;Quisque et urna felis. Duis orci nisi, tempor ac ultricies a, tincidunt eu turpis. Morbi ornare condimentum sapien, sed euismod magna mattis a. Morbi tempor auctor auctor. In nulla velit, lobortis eu ultrices non, sodales vitae ex. Nullam enim ante, pretium eget porttitor in, dapibus nec enim. Integer vel pretium felis. Donec egestas finibus lobortis. Phasellus fermentum ullamcorper pretium. Pellentesque lobortis dapibus ex, non lacinia turpis porttitor ac. Morbi tempor mauris quis erat luctus luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra commodo pulvinar.&#xa;&#xa;Ut nulla felis, ultricies id massa quis, euismod porta ipsum. Nulla nec libero vitae ante bibendum fringilla. Curabitur vulputate faucibus ligula, ut porta dui maximus non. Mauris vitae lectus a nulla ultricies fermentum. Vivamus congue lacus at blandit lacinia. Donec est risus, dignissim ac auctor id, facilisis sit amet ipsum. Curabitur mollis diam eu venenatis suscipit. Duis quis diam gravida, porttitor est non, egestas magna. Donec eget sapien a metus ullamcorper ultrices sed eget sem. Ut nec tincidunt ante, a aliquet sapien. Sed consequat, felis nec lacinia rutrum, magna ex feugiat erat, sit amet porta massa libero non ligula. Vestibulum convallis erat vel justo semper, in scelerisque purus convallis. Curabitur non suscipit dui. Suspendisse mollis magna arcu.&#xa;&#xa;Ut ultricies, elit non scelerisque rhoncus, dolor orci laoreet massa, quis blandit erat tellus a lorem. Donec turpis metus, posuere non condimentum nec, tincidunt in ipsum. Donec lacinia sem et leo tempus sagittis. Morbi eget convallis nisl. Aenean eu diam sit amet erat faucibus sodales id ut ex. Praesent auctor dictum facilisis. Sed a aliquet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam quam urna, elementum ac est eu, placerat venenatis nisl. Quisque maximus quam velit, et lobortis elit blandit viverra. Nullam lacus neque, interdum sed pretium id, dictum quis felis. Donec pellentesque convallis lectus, nec mattis tortor dignissim eget.&#xa;&#xa;Praesent molestie, lorem vitae mollis semper, dui tortor eleifend lorem, sit amet iaculis mi libero a nisi. Nullam nec enim a urna consectetur fermentum. Vivamus pulvinar, erat id pretium vestibulum, est arcu imperdiet dui, id ullamcorper nulla eros ut nibh. Vivamus accumsan nisi sed ante dapibus, quis tempor lacus venenatis. Sed fermentum turpis at auctor molestie. Fusce nec purus vel nisl eleifend dictum hendrerit quis metus. Morbi consequat risus orci, ut aliquam augue laoreet nec. Etiam a mauris vitae tortor venenatis bibendum. Maecenas in metus id risus aliquet gravida. Suspendisse ut commodo est, nec porta ex. Fusce sed nibh eget lorem accumsan consequat. Suspendisse porta est sapien, aliquam malesuada dui elementum cursus. Aliquam erat volutpat. Ut non vulputate ipsum. Ut vitae ante turpis.&#xa;&#xa;Phasellus a felis porta, pulvinar odio ut, congue nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse placerat lorem eu leo feugiat imperdiet. Sed ultricies, diam id ornare mollis, massa nisl hendrerit massa, eget consequat lacus nisi ac est. Nullam leo massa, fringilla euismod risus id, accumsan sodales est. Suspendisse vitae nulla et nisi scelerisque pharetra. Cras bibendum, sem dictum volutpat dignissim, ex odio tempor lorem, non commodo sapien ex vitae elit. Proin efficitur felis sit amet libero lacinia, at sollicitudin orci aliquet. Suspendisse tristique aliquam metus, non vehicula metus. Curabitur auctor elit nibh, quis porttitor nunc placerat commodo. Aliquam nec justo nisl. Maecenas at lacus vitae erat efficitur auctor. Duis eu mollis leo.&#xa;&#xa;Sed aliquet suscipit urna. Etiam laoreet massa ac sapien interdum, ac tincidunt orci finibus. Pellentesque convallis neque nulla, vitae consequat turpis luctus non. Nunc maximus erat ut mauris rutrum, non maximus orci tristique. Sed pretium maximus magna. Suspendisse pretium nunc sem, iaculis aliquet augue mattis sit amet. Nulla pharetra quis purus ac sodales. Nunc ex lectus, finibus at bibendum non, iaculis et odio. Sed magna arcu, placerat in dolor in, viverra imperdiet lacus.&#xa;&#xa;Phasellus rhoncus eget erat sit amet posuere. Etiam et egestas tortor, ut facilisis augue. Vestibulum ut tellus a felis vestibulum bibendum dictum quis augue. Suspendisse in aliquam dolor. Aliquam erat volutpat. Pellentesque varius rutrum massa sed aliquam. Integer suscipit dui eget nisi suscipit, sed feugiat mi fermentum. Donec tristique velit molestie faucibus pulvinar. Praesent laoreet ultrices magna. Donec a sapien enim.&#xa;&#xa;10 paragraphes, 971 mots, 6513 caract&#xe8;res de Lorem Ipsum g&#xe9;n&#xe9;r&#xe9;&#xa;&#xa;&#xa;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
